@@ -510,13 +510,13 @@ These commands use the `xpack-develop` branch of this repo.
 
 ## Durations & results
 
-The builds take about 0h24 to complete:
+The builds take about 6 minutes to complete:
 
-- `xbbmi`: 0x10 (nuc)
-- `xbbma`: 0h07
-- `xbbli`: 0h05
-- `xbbla`: 0h24
-- `xbbla32`: 0h22
+- `xbbmi`: 3 (nuc)
+- `xbbma`: 2
+- `xbbli`: 2
+- `xbbla`: 6
+- `xbbla32`: 6
 
 The workflow result and logs are available from the
 [Actions](https://github.com/xpack-dev-tools/texinfo-xpack/actions/) page.
@@ -598,8 +598,8 @@ xattr -cr ${HOME}/Downloads/xpack-*
 On GNU/Linux and macOS systems, use:
 
 ```sh
-.../xpack-texinfo-7.0.3-1/bin/texinfo --version
-texinfo 7.0.3
+.../xpack-texinfo-7.0.3-1/bin/texi2any --version
+texi2any (GNU texinfo) 7.0.3
 ```
 
 ## Create a new GitHub pre-release draft
