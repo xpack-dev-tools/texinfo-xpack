@@ -4,7 +4,7 @@ Version **{{ XBB_RELEASE_VERSION }}** is a maintenance release of the **xPack GN
 
 Or (TODO: edit!):
 
-Version **{{ XBB_RELEASE_VERSION }}** is a new release of the **xPack GNU texinfo** package, following the upstream GNU texinfo [release](https://github.com/westes/texinfo/releases).
+Version **{{ XBB_RELEASE_VERSION }}** is a new release of the **xPack GNU texinfo** package, following the upstream GNU texinfo [release](https://ftp.gnu.org/gnu/texinfo/).
 
 [Continue reading »](TODO: edit, add URL!)
 
