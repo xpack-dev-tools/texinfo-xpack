@@ -233,15 +233,14 @@ xpm install --config darwin-x64 -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 xpm run build-develop --config darwin-x64 -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 ```
 
-About 10 minutes later, the output of the build script is a compressed
+Several minutes later, the output of the build script is a compressed
 archive and its SHA signature, created in the `deploy` folder:
 
 ```console
 $ ls -l ~/Work/xpack-dev-tools/texinfo-xpack.git/build/darwin-x64/deploy
-total 816
--rw-r--r--  1 ilg  staff  413619 Aug 17 11:04 xpack-texinfo-7.0.3-1-darwin-x64.tar.gz
--rw-r--r--  1 ilg  staff     103 Aug 17 11:04 xpack-texinfo-7.0.3-1-darwin-x64.tar.gz.sha
-```
+total 4872
+-rw-r--r--  1 ilg  staff  2487291 Aug 22 15:12 xpack-texinfo-7.0.3-1-darwin-x64.tar.gz
+-rw-r--r--  1 ilg  staff      106 Aug 22 15:12 xpack-texinfo-7.0.3-1-darwin-x64.tar.gz.sha```
 
 #### Apple Silicon macOS
 
@@ -266,14 +265,14 @@ xpm install --config darwin-arm64 -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 xpm run build-develop --config darwin-arm64 -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 ```
 
-About 7 minutes later, the output of the build script is a compressed
+Several minutes later, the output of the build script is a compressed
 archive and its SHA signature, created in the `deploy` folder:
 
 ```console
 $ ls -l ~/Work/xpack-dev-tools/texinfo-xpack.git/build/darwin-arm64/deploy
-total 816
--rw-r--r--  1 ilg  staff  409774 Aug 17 11:01 xpack-texinfo-7.0.3-1-darwin-arm64.tar.gz
--rw-r--r--  1 ilg  staff     105 Aug 17 11:01 xpack-texinfo-7.0.3-1-darwin-arm64.tar.gz.sha
+total 4832
+-rw-r--r--  1 ilg  staff  2466382 Aug 22 15:11 xpack-texinfo-7.0.3-1-darwin-arm64.tar.gz
+-rw-r--r--  1 ilg  staff      108 Aug 22 15:11 xpack-texinfo-7.0.3-1-darwin-arm64.tar.gz.sha
 ```
 
 #### Intel GNU/Linux
@@ -301,14 +300,14 @@ xpm run docker-link-deps --config linux-x64 -C ~/Work/xpack-dev-tools/texinfo-xp
 xpm run docker-build-develop --config linux-x64 -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 ```
 
-About 5 minutes later, the output of the build script is a compressed
+Several later, the output of the build script is a compressed
 archive and its SHA signature, created in the `deploy` folder:
 
 ```console
 $ ls -l ~/Work/xpack-dev-tools/texinfo-xpack.git/build/linux-x64/deploy
-total 444
--rw-r--r-- 1 ilg ilg 446983 Aug 17 07:59 xpack-texinfo-7.0.3-1-linux-x64.tar.gz
--rw-r--r-- 1 ilg ilg    102 Aug 17 07:59 xpack-texinfo-7.0.3-1-linux-x64.tar.gz.sha
+total 2596
+-rw-r--r-- 1 ilg ilg 2652515 Aug 22 12:11 xpack-texinfo-7.0.3-1-linux-x64.tar.gz
+-rw-r--r-- 1 ilg ilg     105 Aug 22 12:11 xpack-texinfo-7.0.3-1-linux-x64.tar.gz.sha
 ```
 
 ##### Build the Windows binaries
@@ -338,14 +337,14 @@ xpm run docker-link-deps --config linux-arm64 -C ~/Work/xpack-dev-tools/texinfo-
 xpm run docker-build-develop --config linux-arm64 -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 ```
 
-About 22 minutes later, the output of the build script is a compressed
+Several minutes later, the output of the build script is a compressed
 archive and its SHA signature, created in the `deploy` folder:
 
 ```console
 $ ls -l ~/Work/xpack-dev-tools/texinfo-xpack.git/build/linux-arm64/deploy
-total 440
--rw-r--r-- 1 ilg ilg 443276 Aug 17 08:17 xpack-texinfo-7.0.3-1-linux-arm64.tar.gz
--rw-r--r-- 1 ilg ilg    104 Aug 17 08:17 xpack-texinfo-7.0.3-1-linux-arm64.tar.gz.sha
+total 2580
+-rw-r--r-- 1 ilg ilg 2637627 Aug 22 12:16 xpack-texinfo-7.0.3-1-linux-arm64.tar.gz
+-rw-r--r-- 1 ilg ilg     107 Aug 22 12:16 xpack-texinfo-7.0.3-1-linux-arm64.tar.gz.sha
 ```
 
 #### Arm GNU/Linux 32-bit
@@ -371,14 +370,14 @@ xpm run docker-link-deps --config linux-arm -C ~/Work/xpack-dev-tools/texinfo-xp
 xpm run docker-build-develop --config linux-arm -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 ```
 
-About 21 minutes later, the output of the build script is a compressed
+Several minutes later, the output of the build script is a compressed
 archive and its SHA signature, created in the `deploy` folder:
 
 ```console
 $ ls -l ~/Work/xpack-dev-tools/texinfo-xpack.git/build/linux-arm/deploy
-total 436
--rw-r--r-- 1 ilg ilg 438504 Aug 17 08:16 xpack-texinfo-7.0.3-1-linux-arm.tar.gz
--rw-r--r-- 1 ilg ilg    102 Aug 17 08:16 xpack-texinfo-7.0.3-1-linux-arm.tar.gz.sha
+total 2528
+-rw-r--r-- 1 ilg ilg 2580835 Aug 22 12:16 xpack-texinfo-7.0.3-1-linux-arm.tar.gz
+-rw-r--r-- 1 ilg ilg     105 Aug 22 12:16 xpack-texinfo-7.0.3-1-linux-arm.tar.gz.sha
 ```
 
 ### Update README-MAINTAINER listing output
