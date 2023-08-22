@@ -108,16 +108,26 @@ $ tree -L 2 /Users/ilg/Library/xPacks/\@xpack-dev-tools/texinfo/7.0.3-1.1/.conte
 /Users/ilg/Library/xPacks/\@xpack-dev-tools/texinfo/7.0.3-1.1/.content/
 ├── README.md
 ├── bin
-│   ├── texinfo
-│   └── texinfo++ -> texinfo
+│   ├── info
+│   ├── install-info
+│   ├── makeinfo -> texi2any
+│   ├── pdftexi2dvi
+│   ├── pod2texi
+│   ├── texi2any
+│   ├── texi2dvi
+│   ├── texi2pdf
+│   └── texindex
 ├── distro-info
 │   ├── CHANGELOG.md
 │   ├── licenses
 │   └── scripts
-├── include
-│   └── FlexLexer.h
-└── lib
-    └── libfl.a
+├── libexec
+│   ├── libiconv.2.dylib
+│   └── libncurses.6.dylib
+└── share
+    └── texinfo
+
+8 directories, 13 files
 ```
 
 No other files are installed in any system folders or other locations.
