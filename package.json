@@ -95,6 +95,9 @@
         "npm install",
         "xpm install"
       ],
+      "post::install": [
+        "bash run-scripts/relocate.sh .content/bin/texindex .content/bin/pod2texi .content/bin/texi2any"
+      ],
       "link-deps": [
         "xpm link @xpack-dev-tools/xbb-helper"
       ],
