@@ -489,11 +489,11 @@ These commands use the `xpack-develop` branch of this repo.
 
 The builds take about 6 minutes to complete:
 
-- `xbbmi`: 3 (nuc)
-- `xbbma`: 2
-- `xbbli`: 2
-- `xbbla`: 6
-- `xbbla32`: 6
+- `xbbmi`: 3 min (nuc)
+- `xbbma`: 2 min
+- `xbbli`: 2 min
+- `xbbla`: 6 min
+- `xbbla32`: 6 min
 
 The workflow result and logs are available from the
 [Actions](https://github.com/xpack-dev-tools/texinfo-xpack/actions/) page.
