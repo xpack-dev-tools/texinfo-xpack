@@ -8,7 +8,7 @@ summary: "Version **{{ XBB_RELEASE_VERSION }}** is a maintenance release; it fix
 summary: "Version **{{ XBB_RELEASE_VERSION }}** is a new release; it follows the upstream release."
 
 texinfo_version: "7.0.3"
-texinfo_date: "2023-03-26"
+texinfo_date: "26 Mar 2023"
 
 version: "{{ XBB_RELEASE_VERSION }}"
 npm_subversion: "1"
