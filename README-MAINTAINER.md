@@ -169,7 +169,7 @@ git -C ~/Work/xpack-dev-tools/texinfo-xpack.git pull
 xpm run install -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 
 git -C ~/Work/xpack-dev-tools/xbb-helper-xpack.git pull
-xpm run link-deps -C ~/Work/xpack-dev-tools/cmake-xpack.git
+xpm run link-deps -C ~/Work/xpack-dev-tools/texinfo-xpack.git
 
 # For backup overhead reasons, on the development machine
 # the builds happen on a separate Work folder.
