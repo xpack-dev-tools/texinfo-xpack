@@ -14,10 +14,10 @@
       "appLcName": "texinfo",
       "platforms": "linux-x64,linux-arm64,linux-arm,darwin-x64,darwin-arm64",
       "customFields": {
-        "programName": "texinfo",
-        "branding": "",
+        "programName": "texi2any",
+        "branding": "texi2any (GNU texinfo) ",
         "$link": "https://ftp.gnu.org/gnu/texinfo/",
-        "texinfoReleaseDate": ""
+        "texinfoReleaseDate": "26 Mar 2023"
       },
       "buildFolderRelativePath": "{{ 'build' | path_join: configuration.name | to_filename | downcase }}",
       "buildFolderRelativePathPosix": "{{ 'build' | path_posix_join: configuration.name | downcase }}",
