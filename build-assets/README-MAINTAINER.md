@@ -68,7 +68,7 @@ xpm link -C ~/Work/xpack-dev-tools/xbb-helper-xpack.git
 ## Release schedule
 
 The xPack GNU texinfo release schedule generally follows the original GNU
-[releases](https://github.com/westes/texinfo/releases).
+[releases](https://ftp.gnu.org/gnu/texinfo/).
 
 ## How to make new releases
 
