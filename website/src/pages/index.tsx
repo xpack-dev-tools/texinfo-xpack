@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout 
-      title={`Hello from texinfo`}
+      title={`Welcome to texinfo`}
       description="A binary package with the texinfo executables">
       <HomepageHeader />
       <main>
