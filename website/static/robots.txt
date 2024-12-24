@@ -1,0 +1,7 @@
+Sitemap: https://xpack-dev-tools.github.io/texinfo-xpack/sitemap.xml
+
+User-agent: *
+Disallow: /texinfo-xpack/blog/archive/
+Disallow: /texinfo-xpack/blog/authors/
+Disallow: /texinfo-xpack/blog/page/
+Disallow: /texinfo-xpack/blog/tags/
