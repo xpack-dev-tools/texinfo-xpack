@@ -89,7 +89,8 @@ console.log('customFields: ' + util.inspect(customFields));
 // ----------------------------------------------------------------------------
 
 const config: Config = {
-  title: 'xPack GNU texinfo',
+  title: 'xPack GNU texinfo' +
+    ((process.env.DOCUSAURUS_IS_PREVIEW === 'true') ? ' (preview)' : ''),
   tagline: 'A binary distribution of GNU texinfo',
   // Explicitly set in headTags.
   // favicon: '/img/favicon.ico',
@@ -260,7 +261,7 @@ const config: Config = {
       items: [
         {
           to: '/',
-          // label: 'Home',
+          label: 'texinfo',
           className: 'header-home-link',
           position: 'left'
         },
