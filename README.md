@@ -5,7 +5,7 @@
 
 # The xPack GNU texinfo
 
-A standalone, cross-platform (GNU/Linux, macOS) binary distribution of GNU texinfo,
+A standalone, cross-platform (macOS, GNU/Linux) binary distribution of GNU texinfo,
 intended for reproducible builds.
 
 ## Project documentation
