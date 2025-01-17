@@ -79,7 +79,8 @@
     "liquidjs": "^10.19.1"
   },
   "topConfig": {
-    "longName": "GNU texinfo"
+    "longName": "GNU texinfo",
+    "shortName": "texinfo"
   },
   "engines": {
     "node": " >=18.0.0"
