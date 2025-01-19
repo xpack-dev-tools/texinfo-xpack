@@ -56,7 +56,15 @@
       "last 5 safari version"
     ]
   },
-  "websiteConfig": {},
+  "websiteConfig": {
+    "customFields": {
+      "programName": "texi2any",
+      "branding": "texi2any (GNU texinfo) ",
+      "$link": "https://ftp.gnu.org/gnu/texinfo/",
+      "texinfoReleaseDate": "26 Mar 2023",
+      "isSecondaryTool": "true"
+    }
+  },
   "engines": {
     "node": ">=18.0"
   }
