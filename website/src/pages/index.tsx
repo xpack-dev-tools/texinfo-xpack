@@ -34,7 +34,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
 
         <div className={styles.installWithCopy}>
-          <InstallWithCopy>xpm install @xpack-dev-tools/texinfo@{customField('releaseVersion')} --verbose</InstallWithCopy>
+          <InstallWithCopy>xpm install @xpack-dev-tools/texinfo@7.0.3-1.1 --verbose</InstallWithCopy>
         </div>
 
       </div>
