@@ -51,10 +51,6 @@
           "fileName": "xpack-texinfo-7.0.3-1-linux-arm64.tar.gz",
           "sha256": "5545066d35d0cdde35ac1fc340269046303c4a27e06184569a4d1b31e0514c2a"
         },
-        "linux-arm": {
-          "fileName": "xpack-texinfo-7.0.3-1-linux-arm.tar.gz",
-          "sha256": "ceb08c01263f4b018103527fb49ff56dd55b654e528229528d7482f7cd2b7314"
-        },
         "linux-x64": {
           "fileName": "xpack-texinfo-7.0.3-1-linux-x64.tar.gz",
           "sha256": "088585b714ca6fcd0097fc6bfb3b09ae751db8592727ebeeebcd3ab46ec13231"
