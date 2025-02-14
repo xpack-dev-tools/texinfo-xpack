@@ -39,7 +39,7 @@ function application_build_versioned_components()
     libiconv_build "1.17"
 
     # https://ftp.gnu.org/gnu/ncurses/
-    ncurses_build "6.4"
+    ncurses_build "6.4" --hack-links
 
     # -------------------------------------------------------------------------
     # Build the application binaries.
