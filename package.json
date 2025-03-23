@@ -77,6 +77,7 @@
   "topConfig": {
     "descriptiveName": "GNU texinfo",
     "permalinkName": "texinfo",
+    "skipCiTests": "true",
     "useSelfHostedRunners": "true"
   },
   "engines": {
