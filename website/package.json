@@ -76,7 +76,8 @@
     "branding": "texi2any (GNU texinfo) ",
     "isSecondaryTool": "true",
     "$link": "https://ftp.gnu.org/gnu/texinfo/",
-    "texinfoReleaseDate": "26 Mar 2023"
+    "texinfoReleaseDate": "26 Mar 2023",
+    "shareOnTwitter": "true"
   },
   "engines": {
     "node": ">=18.0"
