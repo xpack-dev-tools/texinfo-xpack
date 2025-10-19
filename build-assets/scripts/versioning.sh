@@ -38,7 +38,7 @@ function application_build_versioned_components()
     # https://ftp.gnu.org/pub/gnu/libiconv/
     libiconv_build "1.17"
 
-    # https://ftp.gnu.org/gnu/ncurses/
+    # https://ftpmirror.gnu.org/gnu/ncurses/
     ncurses_build "6.4" --hack-links
 
     # -------------------------------------------------------------------------
