@@ -2,13 +2,13 @@
 # -----------------------------------------------------------------------------
 #
 # This file is part of the xPack project (http://xpack.github.io).
-# Copyright (c) 2022 Liviu Ionescu. All rights reserved.
+# Copyright (c) 2022-2025 Liviu Ionescu. All rights reserved.
 #
 # Permission to use, copy, modify, and/or distribute this software
 # for any purpose is hereby granted, under the terms of the MIT license.
 #
 # If a copy of the license was not distributed with this file, it can
-# be obtained from https://opensource.org/licenses/mit/.
+# be obtained from https://opensource.org/licenses/mit.
 #
 # -----------------------------------------------------------------------------
 
@@ -38,8 +38,8 @@ function application_build_versioned_components()
     # https://ftp.gnu.org/pub/gnu/libiconv/
     libiconv_build "1.17"
 
-    # https://ftp.gnu.org/gnu/ncurses/
-    ncurses_build "6.4"
+    # https://ftpmirror.gnu.org/gnu/ncurses/
+    ncurses_build "6.4" --hack-links
 
     # -------------------------------------------------------------------------
     # Build the application binaries.

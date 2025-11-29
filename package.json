@@ -4,9 +4,14 @@
   "description": "A binary xpm package with the GNU texinfo executables",
   "main": "",
   "scripts": {
-    "postversion": "git push origin --all && git push origin --tags",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "liquidjs": "liquidjs"
+    "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh --xpack-dev-tools",
+    "npm-install": "npm install",
+    "npm-link-helpers": "npm link @xpack/npm-packages-helper @xpack/docusaurus-template-liquid",
+    "npm-outdated": "npm outdated",
+    "npm-pack": "npm pack",
+    "npm-link": "npm link",
+    "deep-clean": "del-cli node_modules package-lock.json *.tgz",
+    "postversion": "git push origin --all && git push origin --tags"
   },
   "repository": {
     "type": "git",
@@ -28,7 +33,7 @@
   },
   "license": "MIT",
   "xpack": {
-    "minimumXpmRequired": "0.16.3",
+    "minimumXpmRequired": "0.20.5",
     "binaries": {
       "destination": "./.content",
       "baseUrl": "https://github.com/xpack-dev-tools/texinfo-xpack/releases/download/v7.0.3-1",
@@ -46,17 +51,13 @@
           "fileName": "xpack-texinfo-7.0.3-1-linux-arm64.tar.gz",
           "sha256": "5545066d35d0cdde35ac1fc340269046303c4a27e06184569a4d1b31e0514c2a"
         },
-        "linux-arm": {
-          "fileName": "xpack-texinfo-7.0.3-1-linux-arm.tar.gz",
-          "sha256": "ceb08c01263f4b018103527fb49ff56dd55b654e528229528d7482f7cd2b7314"
-        },
         "linux-x64": {
           "fileName": "xpack-texinfo-7.0.3-1-linux-x64.tar.gz",
           "sha256": "088585b714ca6fcd0097fc6bfb3b09ae751db8592727ebeeebcd3ab46ec13231"
         }
       }
     },
-    "bin": {
+    "executables": {
       "info": "./.content/bin/info",
       "install-info": "./.content/bin/install-info",
       "makeinfo": "./.content/bin/makeinfo",
@@ -67,5 +68,20 @@
       "texi2pdf": "./.content/bin/texi2pdf",
       "texindex": "./.content/bin/texindex"
     }
+  },
+  "devDependencies": {
+    "del-cli": "^7.0.0",
+    "json": "^11.0.0",
+    "liquidjs": "^10.23.0"
+  },
+  "topConfig": {
+    "descriptiveName": "xPack GNU texinfo",
+    "upstreamDescriptiveName": "GNU texinfo",
+    "permalinkName": "texinfo",
+    "skipCiTests": "true",
+    "useSelfHostedRunners": "true"
+  },
+  "engines": {
+    "node": " >=20.0"
   }
 }
