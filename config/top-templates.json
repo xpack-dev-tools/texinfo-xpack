@@ -1,0 +1,8 @@
+{
+  "descriptiveName": "xPack GNU texinfo",
+  "permalinkName": "texinfo",
+  "preferredName": "xPack GNU texinfo",
+  "upstreamDescriptiveName": "GNU texinfo",
+  "skipCiTests": true,
+  "useSelfHostedRunners": true
+}
