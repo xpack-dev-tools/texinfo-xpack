@@ -1,0 +1,8 @@
+{
+  "branding": "texi2any (GNU texinfo) ",
+  "programName": "texi2any",
+  "texinfoReleaseDate": "26 Mar 2023",
+  "$link": "https://ftpmirror.gnu.org/gnu/texinfo/",
+  "isSecondaryTool": true,
+  "shareOnTwitter": true
+}
